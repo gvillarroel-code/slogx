@@ -8,7 +8,7 @@ var fecha = ""
 var result = ""
 
 
-app.get('/', (req, res) => {
+app.get('/log', (req, res) => {
 
   res.setHeader("Content-Type", "text/html");
   res.writeHead(200);
