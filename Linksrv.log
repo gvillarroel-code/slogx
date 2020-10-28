@@ -1,0 +1,677 @@
+MsT: Siblink versión BER-GP 1.0
+Msg: Oct 27 08:38:34
+Msg: Nuevo Banco de Entre Rios
+Msg: Inicio del dia - Inicializando Tracking
+Msg: Obteniendo fecha de proceso ...
+Error: archivo FechaSFB.txt. Asume dia anterior.
+Msg: Fecha de proceso extract(mmdd) 1026
+Msg: Iniciando Socket ...
+Msg: Socket iniciado
+Msg: Iniciando Socket adicional ...
+Msg: Socket adicional iniciado
+Msg: Iniciando Socket adicional ...
+Msg: Socket adicional iniciado
+Msg: Iniciando Socket adicional ...
+Msg: Socket adicional iniciado
+Msg: Iniciando Socket adicional ...
+Msg: Socket adicional iniciado
+Msg: Iniciando Socket adicional ...
+Msg: Socket adicional iniciado
+Fin S&F propio
+Msg: Iniciando Socket adicional ...
+Msg: Iniciando Socket adicional ...
+Msg: Socket adicional iniciado
+Msg: Socket adicional iniciado
+Mensaje: [ISO0140000100220B23A800128E0941A000000001600011AA50000000000000000102711391800000211391810271027102711((acq.ins))37<track3.............................>123456789012tes1tes1tes1tes1term.term.term.locationlocationlocationlocationlocation032pin.pin.pin.pin.023N27030076821ataadddata*012**term.dat**013*card issuer*016pinopinopinopino11recinstcode28052004664928++++++++++++++++28............................033termaddrtermaddrtermaddrtermaddr.001.001.043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+
+Longitud: 495
+
+ISO014000010
+0220
+campo[0]:[B23A800128E0941A]
+campo[1]:[000000001600011A]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113918]
+campo[11]:[000002]
+campo[12]:[113918]
+campo[13]:[1027]
+campo[15]:[1027]
+campo[17]:[1027]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[41]:[tes1tes1tes1tes1]
+campo[42]:[term.term.term.]
+campo[43]:[locationlocationlocationlocationlocation]
+campo[49]:[032]
+campo[52]:[pin.pin.pin.pin.]
+campo[54]:[N27030076821ataadddata*]
+campo[60]:[**term.dat**]
+campo[61]:[*card issuer*]
+campo[63]:[pinopinopinopino]
+campo[100]:[recinstcode]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+campo[120]:[termaddrtermaddrtermaddrtermaddr.]
+campo[124]:[.]
+campo[125]:[.]
+campo[127]:[,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+Error SFB:SE:AU600T000002ddmmmaaaammSR100d is00040000020000tes1tes1tes1tes112345678901203860000000000<track3..271020113918271020000000000200000003860000000000000000000 00000000000000000003860000000000000000000   00001000                                     0000000000000000 000000000000 000000000000 000000000000 000000000000 000000000000 00000000000000027030076821000000000000000000000000N00A5a                         locationlocationlocationlocationlocon00000220                                                                                                                                                               
+RR:           91
+
+Longitud: 227
+
+ISO014000010
+0230 to Link 123456789012 25ms
+campo[0]:[B22000012A808000]
+campo[1]:[0000000006000000]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113918]
+campo[11]:[000002]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[39]:[00]
+campo[41]:[tes1tes1tes1tes1]
+campo[49]:[032]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+Msg: Estacion 1 activa
+Mensaje: [ISO0140000100220B23A800128E0941A000000001600011AA50000000000000000102711392300000211392310271027102711((acq.ins))37<track3.............................>123456789012tes1tes1tes1tes1term.term.term.locationlocationlocationlocationlocation032pin.pin.pin.pin.023N27030076821ataadddata*012**term.dat**013*card issuer*016pinopinopinopino11recinstcode28052004664928++++++++++++++++28............................033termaddrtermaddrtermaddrtermaddr.001.001.043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+
+Longitud: 495
+
+ISO014000010
+0220
+campo[0]:[B23A800128E0941A]
+campo[1]:[000000001600011A]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113923]
+campo[11]:[000002]
+campo[12]:[113923]
+campo[13]:[1027]
+campo[15]:[1027]
+campo[17]:[1027]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[41]:[tes1tes1tes1tes1]
+campo[42]:[term.term.term.]
+campo[43]:[locationlocationlocationlocationlocation]
+campo[49]:[032]
+campo[52]:[pin.pin.pin.pin.]
+campo[54]:[N27030076821ataadddata*]
+campo[60]:[**term.dat**]
+campo[61]:[*card issuer*]
+campo[63]:[pinopinopinopino]
+campo[100]:[recinstcode]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+campo[120]:[termaddrtermaddrtermaddrtermaddr.]
+campo[124]:[.]
+campo[125]:[.]
+campo[127]:[,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+Error SFB:SE:AU600T000002ddmmmaaaammSR100d is00040000020000tes1tes1tes1tes112345678901203860000000000<track3..271020113923271020000000000200000003860000000000000000000 00000000000000000003860000000000000000000   00001000                                     0000000000000000 000000000000 000000000000 000000000000 000000000000 000000000000 00000000000000027030076821000000000000000000000000N00A5a                         locationlocationlocationlocationlocon00000220                                                                                                                                                               
+RR:           91
+
+Longitud: 227
+
+ISO014000010
+0230 to Link 123456789012 37ms
+campo[0]:[B22000012A808000]
+campo[1]:[0000000006000000]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113923]
+campo[11]:[000002]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[39]:[00]
+campo[41]:[tes1tes1tes1tes1]
+campo[49]:[032]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+Mensaje: [ISO0040000400800822000000000000004000000000000001234561234567890301]
+Msg: Echo test recibido 08:39:25
+Mensaje: [ISO0040000400800822000000000000004000000000000001234561234567890301]
+Msg: Echo test recibido 08:39:25
+Mensaje: [ISO0040000400800822000000000000004000000000000001234561234567890301]
+Msg: Echo test recibido 08:39:26
+Mensaje: [ISO0040000400800822000000000000004000000000000001234561234567890301]
+Mensaje: [ISO0040000400800822000000000000004000000000000001234561234567890301]
+Msg: Echo test recibido 08:39:26
+Msg: Echo test recibido 08:39:26
+Mensaje: [ISO0040000400800822000000000000004000000000000001234561234567890301]
+Mensaje: [ISO0040000400800822000000000000004000000000000001234561234567890301]
+Msg: Echo test recibido 08:39:26
+Msg: Echo test recibido 08:39:26
+Mensaje: [ISO0140000100220B23A800128E0941A000000001600011AA50000000000000000102711392700000211392710271027102711((acq.ins))37<track3.............................>123456789012tes1tes1tes1tes1term.term.term.locationlocationlocationlocationlocation032pin.pin.pin.pin.023N27030076821ataadddata*012**term.dat**013*card issuer*016pinopinopinopino11recinstcode28052004664928++++++++++++++++28............................033termaddrtermaddrtermaddrtermaddr.001.001.043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+
+Longitud: 495
+
+ISO014000010
+0220
+campo[0]:[B23A800128E0941A]
+campo[1]:[000000001600011A]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113927]
+campo[11]:[000002]
+campo[12]:[113927]
+campo[13]:[1027]
+campo[15]:[1027]
+campo[17]:[1027]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[41]:[tes1tes1tes1tes1]
+campo[42]:[term.term.term.]
+campo[43]:[locationlocationlocationlocationlocation]
+campo[49]:[032]
+campo[52]:[pin.pin.pin.pin.]
+campo[54]:[N27030076821ataadddata*]
+campo[60]:[**term.dat**]
+campo[61]:[*card issuer*]
+campo[63]:[pinopinopinopino]
+campo[100]:[recinstcode]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+campo[120]:[termaddrtermaddrtermaddrtermaddr.]
+campo[124]:[.]
+campo[125]:[.]
+campo[127]:[,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+Error SFB:SE:AU600T000002ddmmmaaaammSR100d is00040000020000tes1tes1tes1tes112345678901203860000000000<track3..271020113927271020000000000200000003860000000000000000000 00000000000000000003860000000000000000000   00001000                                     0000000000000000 000000000000 000000000000 000000000000 000000000000 000000000000 00000000000000027030076821000000000000000000000000N00A5a                         locationlocationlocationlocationlocon00000220                                                                                                                                                               
+RR:           91
+
+Longitud: 227
+
+ISO014000010
+0230 to Link 123456789012 25ms
+campo[0]:[B22000012A808000]
+campo[1]:[0000000006000000]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113927]
+campo[11]:[000002]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[39]:[00]
+campo[41]:[tes1tes1tes1tes1]
+campo[49]:[032]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+Mensaje: [ISO0140000100220B23A800128E0941A000000001600011AA50000000000000000102711393100000211393110271027102711((acq.ins))37<track3.............................>123456789012tes1tes1tes1tes1term.term.term.locationlocationlocationlocationlocation032pin.pin.pin.pin.023N27030076821ataadddata*012**term.dat**013*card issuer*016pinopinopinopino11recinstcode28052004664928++++++++++++++++28............................033termaddrtermaddrtermaddrtermaddr.001.001.043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+
+Longitud: 495
+
+ISO014000010
+0220
+campo[0]:[B23A800128E0941A]
+campo[1]:[000000001600011A]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113931]
+campo[11]:[000002]
+campo[12]:[113931]
+campo[13]:[1027]
+campo[15]:[1027]
+campo[17]:[1027]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[41]:[tes1tes1tes1tes1]
+campo[42]:[term.term.term.]
+campo[43]:[locationlocationlocationlocationlocation]
+campo[49]:[032]
+campo[52]:[pin.pin.pin.pin.]
+campo[54]:[N27030076821ataadddata*]
+campo[60]:[**term.dat**]
+campo[61]:[*card issuer*]
+campo[63]:[pinopinopinopino]
+campo[100]:[recinstcode]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+campo[120]:[termaddrtermaddrtermaddrtermaddr.]
+campo[124]:[.]
+campo[125]:[.]
+campo[127]:[,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+Error SFB:SE:AU600T000002ddmmmaaaammSR100d is00040000020000tes1tes1tes1tes112345678901203860000000000<track3..271020113931271020000000000200000003860000000000000000000 00000000000000000003860000000000000000000   00001000                                     0000000000000000 000000000000 000000000000 000000000000 000000000000 000000000000 00000000000000027030076821000000000000000000000000N00A5a                         locationlocationlocationlocationlocon00000220                                                                                                                                                               
+RR:           91
+
+Longitud: 227
+
+ISO014000010
+0230 to Link 123456789012 24ms
+campo[0]:[B22000012A808000]
+campo[1]:[0000000006000000]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113931]
+campo[11]:[000002]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[39]:[00]
+campo[41]:[tes1tes1tes1tes1]
+campo[49]:[032]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+Mensaje: [ISO0140000100220B23A800128E0941A000000001600011AA50000000000000000102711393500000211393510271027102711((acq.ins))37<track3.............................>123456789012tes1tes1tes1tes1term.term.term.locationlocationlocationlocationlocation032pin.pin.pin.pin.023N27030076821ataadddata*012**term.dat**013*card issuer*016pinopinopinopino11recinstcode28052004664928++++++++++++++++28............................033termaddrtermaddrtermaddrtermaddr.001.001.043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+
+Longitud: 495
+
+ISO014000010
+0220
+campo[0]:[B23A800128E0941A]
+campo[1]:[000000001600011A]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113935]
+campo[11]:[000002]
+campo[12]:[113935]
+campo[13]:[1027]
+campo[15]:[1027]
+campo[17]:[1027]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[41]:[tes1tes1tes1tes1]
+campo[42]:[term.term.term.]
+campo[43]:[locationlocationlocationlocationlocation]
+campo[49]:[032]
+campo[52]:[pin.pin.pin.pin.]
+campo[54]:[N27030076821ataadddata*]
+campo[60]:[**term.dat**]
+campo[61]:[*card issuer*]
+campo[63]:[pinopinopinopino]
+campo[100]:[recinstcode]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+campo[120]:[termaddrtermaddrtermaddrtermaddr.]
+campo[124]:[.]
+campo[125]:[.]
+campo[127]:[,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+Error SFB:SE:AU600T000002ddmmmaaaammSR100d is00040000020000tes1tes1tes1tes112345678901203860000000000<track3..271020113935271020000000000200000003860000000000000000000 00000000000000000003860000000000000000000   00001000                                     0000000000000000 000000000000 000000000000 000000000000 000000000000 000000000000 00000000000000027030076821000000000000000000000000N00A5a                         locationlocationlocationlocationlocon00000220                                                                                                                                                               
+RR:           91
+
+Longitud: 227
+
+ISO014000010
+0230 to Link 123456789012 16ms
+campo[0]:[B22000012A808000]
+campo[1]:[0000000006000000]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113935]
+campo[11]:[000002]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[39]:[00]
+campo[41]:[tes1tes1tes1tes1]
+campo[49]:[032]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+Mensaje: [ISO0140000100220B23A800128E0941A000000001600011AA50000000000000000102711393900000211393910271027102711((acq.ins))37<track3.............................>123456789012tes1tes1tes1tes1term.term.term.locationlocationlocationlocationlocation032pin.pin.pin.pin.023N27030076821ataadddata*012**term.dat**013*card issuer*016pinopinopinopino11recinstcode28052004664928++++++++++++++++28............................033termaddrtermaddrtermaddrtermaddr.001.001.043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+
+Longitud: 495
+
+ISO014000010
+0220
+campo[0]:[B23A800128E0941A]
+campo[1]:[000000001600011A]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113939]
+campo[11]:[000002]
+campo[12]:[113939]
+campo[13]:[1027]
+campo[15]:[1027]
+campo[17]:[1027]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[41]:[tes1tes1tes1tes1]
+campo[42]:[term.term.term.]
+campo[43]:[locationlocationlocationlocationlocation]
+campo[49]:[032]
+campo[52]:[pin.pin.pin.pin.]
+campo[54]:[N27030076821ataadddata*]
+campo[60]:[**term.dat**]
+campo[61]:[*card issuer*]
+campo[63]:[pinopinopinopino]
+campo[100]:[recinstcode]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+campo[120]:[termaddrtermaddrtermaddrtermaddr.]
+campo[124]:[.]
+campo[125]:[.]
+campo[127]:[,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+Error SFB:SE:AU600T000002ddmmmaaaammSR100d is00040000020000tes1tes1tes1tes112345678901203860000000000<track3..271020113939271020000000000200000003860000000000000000000 00000000000000000003860000000000000000000   00001000                                     0000000000000000 000000000000 000000000000 000000000000 000000000000 000000000000 00000000000000027030076821000000000000000000000000N00A5a                         locationlocationlocationlocationlocon00000220                                                                                                                                                               
+RR:           91
+
+Longitud: 227
+
+ISO014000010
+0230 to Link 123456789012 7ms
+campo[0]:[B22000012A808000]
+campo[1]:[0000000006000000]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113939]
+campo[11]:[000002]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[39]:[00]
+campo[41]:[tes1tes1tes1tes1]
+campo[49]:[032]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+Mensaje: [ISO0140000100220B23A800128E0941A000000001600011AA50000000000000000102711394300000211394310271027102711((acq.ins))37<track3.............................>123456789012tes1tes1tes1tes1term.term.term.locationlocationlocationlocationlocation032pin.pin.pin.pin.023N27030076821ataadddata*012**term.dat**013*card issuer*016pinopinopinopino11recinstcode28052004664928++++++++++++++++28............................033termaddrtermaddrtermaddrtermaddr.001.001.043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+
+Longitud: 495
+
+ISO014000010
+0220
+campo[0]:[B23A800128E0941A]
+campo[1]:[000000001600011A]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113943]
+campo[11]:[000002]
+campo[12]:[113943]
+campo[13]:[1027]
+campo[15]:[1027]
+campo[17]:[1027]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[41]:[tes1tes1tes1tes1]
+campo[42]:[term.term.term.]
+campo[43]:[locationlocationlocationlocationlocation]
+campo[49]:[032]
+campo[52]:[pin.pin.pin.pin.]
+campo[54]:[N27030076821ataadddata*]
+campo[60]:[**term.dat**]
+campo[61]:[*card issuer*]
+campo[63]:[pinopinopinopino]
+campo[100]:[recinstcode]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+campo[120]:[termaddrtermaddrtermaddrtermaddr.]
+campo[124]:[.]
+campo[125]:[.]
+campo[127]:[,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+Error SFB:SE:AU600T000002ddmmmaaaammSR100d is00040000020000tes1tes1tes1tes112345678901203860000000000<track3..271020113943271020000000000200000003860000000000000000000 00000000000000000003860000000000000000000   00001000                                     0000000000000000 000000000000 000000000000 000000000000 000000000000 000000000000 00000000000000027030076821000000000000000000000000N00A5a                         locationlocationlocationlocationlocon00000220                                                                                                                                                               
+RR:           91
+
+Longitud: 227
+
+ISO014000010
+0230 to Link 123456789012 94ms
+campo[0]:[B22000012A808000]
+campo[1]:[0000000006000000]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113943]
+campo[11]:[000002]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[39]:[00]
+campo[41]:[tes1tes1tes1tes1]
+campo[49]:[032]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+Mensaje: [ISO0140000100220B23A800128E0941A000000001600011AA50000000000000000102711394700000211394710271027102711((acq.ins))37<track3.............................>123456789012tes1tes1tes1tes1term.term.term.locationlocationlocationlocationlocation032pin.pin.pin.pin.023N27030076821ataadddata*012**term.dat**013*card issuer*016pinopinopinopino11recinstcode28052004664928++++++++++++++++28............................033termaddrtermaddrtermaddrtermaddr.001.001.043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+
+Longitud: 495
+
+ISO014000010
+0220
+campo[0]:[B23A800128E0941A]
+campo[1]:[000000001600011A]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113947]
+campo[11]:[000002]
+campo[12]:[113947]
+campo[13]:[1027]
+campo[15]:[1027]
+campo[17]:[1027]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[41]:[tes1tes1tes1tes1]
+campo[42]:[term.term.term.]
+campo[43]:[locationlocationlocationlocationlocation]
+campo[49]:[032]
+campo[52]:[pin.pin.pin.pin.]
+campo[54]:[N27030076821ataadddata*]
+campo[60]:[**term.dat**]
+campo[61]:[*card issuer*]
+campo[63]:[pinopinopinopino]
+campo[100]:[recinstcode]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+campo[120]:[termaddrtermaddrtermaddrtermaddr.]
+campo[124]:[.]
+campo[125]:[.]
+campo[127]:[,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+Error SFB:SE:AU600T000002ddmmmaaaammSR100d is00040000020000tes1tes1tes1tes112345678901203860000000000<track3..271020113947271020000000000200000003860000000000000000000 00000000000000000003860000000000000000000   00001000                                     0000000000000000 000000000000 000000000000 000000000000 000000000000 000000000000 00000000000000027030076821000000000000000000000000N00A5a                         locationlocationlocationlocationlocon00000220                                                                                                                                                               
+RR:           91
+
+Longitud: 227
+
+ISO014000010
+0230 to Link 123456789012 21ms
+campo[0]:[B22000012A808000]
+campo[1]:[0000000006000000]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113947]
+campo[11]:[000002]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[39]:[00]
+campo[41]:[tes1tes1tes1tes1]
+campo[49]:[032]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+Mensaje: [ISO0140000100220B23A800128E0941A000000001600011AA50000000000000000102711395100000211395110271027102711((acq.ins))37<track3.............................>123456789012tes1tes1tes1tes1term.term.term.locationlocationlocationlocationlocation032pin.pin.pin.pin.023N27030076821ataadddata*012**term.dat**013*card issuer*016pinopinopinopino11recinstcode28052004664928++++++++++++++++28............................033termaddrtermaddrtermaddrtermaddr.001.001.043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+
+Longitud: 495
+
+ISO014000010
+0220
+campo[0]:[B23A800128E0941A]
+campo[1]:[000000001600011A]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113951]
+campo[11]:[000002]
+campo[12]:[113951]
+campo[13]:[1027]
+campo[15]:[1027]
+campo[17]:[1027]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[41]:[tes1tes1tes1tes1]
+campo[42]:[term.term.term.]
+campo[43]:[locationlocationlocationlocationlocation]
+campo[49]:[032]
+campo[52]:[pin.pin.pin.pin.]
+campo[54]:[N27030076821ataadddata*]
+campo[60]:[**term.dat**]
+campo[61]:[*card issuer*]
+campo[63]:[pinopinopinopino]
+campo[100]:[recinstcode]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+campo[120]:[termaddrtermaddrtermaddrtermaddr.]
+campo[124]:[.]
+campo[125]:[.]
+campo[127]:[,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+Error SFB:SE:AU600T000002ddmmmaaaammSR100d is00040000020000tes1tes1tes1tes112345678901203860000000000<track3..271020113951271020000000000200000003860000000000000000000 00000000000000000003860000000000000000000   00001000                                     0000000000000000 000000000000 000000000000 000000000000 000000000000 000000000000 00000000000000027030076821000000000000000000000000N00A5a                         locationlocationlocationlocationlocon00000220                                                                                                                                                               
+RR:           91
+
+Longitud: 227
+
+ISO014000010
+0230 to Link 123456789012 17ms
+campo[0]:[B22000012A808000]
+campo[1]:[0000000006000000]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113951]
+campo[11]:[000002]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[39]:[00]
+campo[41]:[tes1tes1tes1tes1]
+campo[49]:[032]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+Mensaje: [ISO0140000100220B23A800128E0941A000000001600011AA50000000000000000102711395600000211395610271027102711((acq.ins))37<track3.............................>123456789012tes1tes1tes1tes1term.term.term.locationlocationlocationlocationlocation032pin.pin.pin.pin.023N27030076821ataadddata*012**term.dat**013*card issuer*016pinopinopinopino11recinstcode28052004664928++++++++++++++++28............................033termaddrtermaddrtermaddrtermaddr.001.001.043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+
+Longitud: 495
+
+ISO014000010
+0220
+campo[0]:[B23A800128E0941A]
+campo[1]:[000000001600011A]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113956]
+campo[11]:[000002]
+campo[12]:[113956]
+campo[13]:[1027]
+campo[15]:[1027]
+campo[17]:[1027]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[41]:[tes1tes1tes1tes1]
+campo[42]:[term.term.term.]
+campo[43]:[locationlocationlocationlocationlocation]
+campo[49]:[032]
+campo[52]:[pin.pin.pin.pin.]
+campo[54]:[N27030076821ataadddata*]
+campo[60]:[**term.dat**]
+campo[61]:[*card issuer*]
+campo[63]:[pinopinopinopino]
+campo[100]:[recinstcode]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+campo[120]:[termaddrtermaddrtermaddrtermaddr.]
+campo[124]:[.]
+campo[125]:[.]
+campo[127]:[,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+Error SFB:SE:AU600T000002ddmmmaaaammSR100d is00040000020000tes1tes1tes1tes112345678901203860000000000<track3..271020113956271020000000000200000003860000000000000000000 00000000000000000003860000000000000000000   00001000                                     0000000000000000 000000000000 000000000000 000000000000 000000000000 000000000000 00000000000000027030076821000000000000000000000000N00A5a                         locationlocationlocationlocationlocon00000220                                                                                                                                                               
+RR:           91
+
+Longitud: 227
+
+ISO014000010
+0230 to Link 123456789012 25ms
+campo[0]:[B22000012A808000]
+campo[1]:[0000000006000000]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027113956]
+campo[11]:[000002]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[39]:[00]
+campo[41]:[tes1tes1tes1tes1]
+campo[49]:[032]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+Mensaje: [ISO0140000100220B23A800128E0941A000000001600011AA50000000000000000102711400000000211400010271027102711((acq.ins))37<track3.............................>123456789012tes1tes1tes1tes1term.term.term.locationlocationlocationlocationlocation032pin.pin.pin.pin.023N27030076821ataadddata*012**term.dat**013*card issuer*016pinopinopinopino11recinstcode28052004664928++++++++++++++++28............................033termaddrtermaddrtermaddrtermaddr.001.001.043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+
+Longitud: 495
+
+ISO014000010
+0220
+campo[0]:[B23A800128E0941A]
+campo[1]:[000000001600011A]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027114000]
+campo[11]:[000002]
+campo[12]:[114000]
+campo[13]:[1027]
+campo[15]:[1027]
+campo[17]:[1027]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[41]:[tes1tes1tes1tes1]
+campo[42]:[term.term.term.]
+campo[43]:[locationlocationlocationlocationlocation]
+campo[49]:[032]
+campo[52]:[pin.pin.pin.pin.]
+campo[54]:[N27030076821ataadddata*]
+campo[60]:[**term.dat**]
+campo[61]:[*card issuer*]
+campo[63]:[pinopinopinopino]
+campo[100]:[recinstcode]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
+campo[120]:[termaddrtermaddrtermaddrtermaddr.]
+campo[124]:[.]
+campo[125]:[.]
+campo[127]:[,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,]
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+SFB: java.net.ConnectException: Connection refused (Connection refused)
+Error SFB:SE:AU600T000002ddmmmaaaammSR100d is00040000020000tes1tes1tes1tes112345678901203860000000000<track3..271020114000271020000000000200000003860000000000000000000 00000000000000000003860000000000000000000   00001000                                     0000000000000000 000000000000 000000000000 000000000000 000000000000 000000000000 00000000000000027030076821000000000000000000000000N00A5a                         locationlocationlocationlocationlocon00000220                                                                                                                                                               
+RR:           91
+
+Longitud: 227
+
+ISO014000010
+0230 to Link 123456789012 21ms
+campo[0]:[B22000012A808000]
+campo[1]:[0000000006000000]
+campo[3]:[A50000]
+campo[4]:[000000000000]
+campo[7]:[1027114000]
+campo[11]:[000002]
+campo[32]:[((acq.ins))]
+campo[35]:[<track3.............................>]
+campo[37]:[123456789012]
+campo[39]:[00]
+campo[41]:[tes1tes1tes1tes1]
+campo[49]:[032]
+campo[102]:[052004664928++++++++++++++++]
+campo[103]:[............................]
