@@ -1,5 +1,5 @@
 FROM node:latest
 WORKDIR /
 COPY . /
-CMD ["node", "app.js"] 
+CMD ["node", "src/index.js"] 
 
