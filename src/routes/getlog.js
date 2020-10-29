@@ -6,6 +6,7 @@ const getlog = (req, res) => {
 
   var fecha = ""
   var result = ""
+  var lines = ""
 
   res.setHeader("Content-Type", "text/html");
   res.writeHead(200);
@@ -19,19 +20,18 @@ const getlog = (req, res) => {
     fecha = dateFormat(stats.mtime, "dd-mm-yyyy hh:MM:ss")
   })
 
-  const data = fs.readFileSync('Linksrv.log', 'UTF-8');
   result = '<h3>Log Sinlink...:  ' + fecha + '</h3>'
   result = result + '<a href="download">Download Linksrv.log</a>'
+  result = result + '<br><br>Mostrando ultimas 3000 lineas del log'
   result = result + '<br>__________________________________________________________________________________<br>'
-
   res.write(result)
 
-  const line = data.split(/\r?\n/);
-  line.forEach((line) => {
-    res.write(line + '<br>');
-  });
+  var exec = require('child_process').exec; 
 
-  res.end('<br> FIN....');
+  exec('tail -3000 Linksrv.log', function (error, results) {
+    lines = results.toString().replace(/(?:\r\n|\r|\n)/g, '<br>')
+    res.end(lines);
+  });
 
 }
 
