@@ -28,7 +28,8 @@ const getlog = (req, res) => {
     } else {
 
 
-      result = '<h2>Log Sinlink...:  ' + fecha + '</h2>'
+      result = '<h3>Log Sinlink...:  ' + fecha + '</h3>'
+      result = result + '<a href="download">Download Linksrv.log</a>'
       result = result + '<br>__________________________________________________________________________________<br>'
 
       result = result + data.toString().replace(/(?:\r\n|\r|\n)/g, '<br>')
