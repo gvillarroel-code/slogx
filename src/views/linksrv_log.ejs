@@ -1,5 +1,13 @@
-<%- include('navbar.ejs') %>
+<%- include('menu.ejs') %>
 
-<h3>Log Sinlink...:  ' + fecha + '</h3>'
-  result = result + '<a href="download">Download Linksrv.log</a>'
-  result = result + '<br><br>Mostrando ultimas 3000 lineas del log'
+<h3>Log Sinlink...: <%- datoslog.fecha %>  </h3>
+<br>
+<a href="download">Download Linksrv.log</a>
+<br><br>Mostrando ultimas 3000 lineas del log
+<br>
+<hr>
+
+<%- datoslog.lines %>
+
+</body>
+</html>
