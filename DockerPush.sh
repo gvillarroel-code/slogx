@@ -1,2 +1,2 @@
-docker push itservicegvillarroel/slogx:v1.0
+docker push itservicegvillarroel/slogx:v1.1
 

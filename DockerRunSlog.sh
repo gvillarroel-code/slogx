@@ -1,1 +1,1 @@
-docker run --name slogx -d --rm  -m 1G -p 80:3000 -v /opt/Siblink/Linksrv.log:/Linksrv.log:ro -e TZ="America/Argentina/Buenos_Aires" itservicegvillarroel/slogx:v1.0
+docker run --name slogx -d --rm  -m 1G -p 80:3000 -v /opt/Siblink/Linksrv.log:/Linksrv.log:ro -v /opt/Siblink/id_rsa:/root/.ssh/id_rsa -v /opt/Siblink/id_rsa.pub:/root/.ssh/id_rsa.pub -v /opt/Siblink/known_hosts:/root/.ssh/known_hosts -e TZ="America/Argentina/Buenos_Aires" --add-host dockerhost:192.168.11.1 itservicegvillarroel/slogx:v1.1
