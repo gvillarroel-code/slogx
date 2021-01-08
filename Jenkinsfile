@@ -11,7 +11,7 @@ pipeline {
         stage('Dos') {
             steps {
                 sh 'ls -l /'
-                docker images
+                sh 'docker images'
             }
         }
 
