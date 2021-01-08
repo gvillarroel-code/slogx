@@ -11,6 +11,7 @@ pipeline {
         stage('Dos') {
             steps {
                 sh 'ls -l /'
+                sh './DockerBuild.sh'
                 sh 'docker images'
             }
         }
