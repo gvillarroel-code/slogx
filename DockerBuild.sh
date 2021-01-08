@@ -1,1 +1,1 @@
-docker build --tag itservicegvillarroel/slogx:v1.1 .
+docker build --tag pkshcr02.root.corp/sa/slogx:v1.5 . 
