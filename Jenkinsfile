@@ -4,11 +4,11 @@ pipeline {
     stages {
         stage('Fase 1') {
             steps {
-                echo 'Hello World'
+                echo 'Paso uno'
             }
         }
 
-        stage('Fase Dos') {
+        stage('Paso Dos') {
             steps {
                 sh 'ls -l /'
                 sh './DockerBuild.sh'
