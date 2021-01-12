@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Fase 1') {
             steps {
                 echo 'Hello World'
             }
         }
 
-        stage('Dos') {
+        stage('Fase Dos') {
             steps {
                 sh 'ls -l /'
                 sh './DockerBuild.sh'
